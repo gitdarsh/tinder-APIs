@@ -8,7 +8,6 @@ from sqlalchemy.orm import(
 
 from core.config import config
 
-# engine = asyncio.create_async_engine(
 engine = create_engine(
     config.DB_URL,
     echo = False,
