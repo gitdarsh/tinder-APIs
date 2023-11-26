@@ -9,7 +9,7 @@ def init_routers(tinder:FastAPI):
 def create_app() -> FastAPI:
     tinder = FastAPI(
         title = "Tinder",
-        docs_url="/docs"
+        docs_url="/docs-Jy9kL3QrXsZ6gH2aPvF1"
     )
     
     init_routers(tinder)
